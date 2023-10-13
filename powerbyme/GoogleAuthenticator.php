@@ -4,7 +4,7 @@
  * PHP Class for handling Google Authenticator 2-factor authentication.
  *
  * @author 
- * @copyright 2012
+ * @copyright 2023
  * @license http://www.opensource.org/licenses/bsd-license.php BSD License
  *
  * @link 
