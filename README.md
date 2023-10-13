@@ -64,7 +64,7 @@ Installation:
 
 ```composer install```
 ```
-composer requeit powerbyme/GoogleAuthenticator
+composer require powerbyme/GoogleAuthenticator
 ```
 - [Composer](https://getcomposer.org/doc/01-basic-usage.md) will take care of autoloading
   the library. Just include the following at the top of your file
