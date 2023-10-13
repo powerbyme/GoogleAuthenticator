@@ -3,11 +3,11 @@ PHP class to generate and verify Google Authenticator 2-factor authentication
 Google Authenticator PHP class
 ==============================
 
-* Copyright (c) 2012-2016, [http://www.phpgangsta.de](http://www.phpgangsta.de)
-* Author: Michael Kliewe, [@PHPGangsta](http://twitter.com/PHPGangsta) and [contributors](https://github.com/PHPGangsta/GoogleAuthenticator/graphs/contributors)
+* Copyright (c) 2023, 
+* Author: 
 * Licensed under the BSD License.
 
-[![Build Status](https://travis-ci.org/PHPGangsta/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/PHPGangsta/GoogleAuthenticator)
+[![Build Status](https://travis-ci.org/powerbyme/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/powerbyme/GoogleAuthenticator)
 
 This PHP class can be used to interact with the Google Authenticator mobile app for 2-factor-authentication. This class
 can generate secrets, generate codes, validate codes and present a QR-Code for scanning the secret. It implements TOTP 
@@ -24,9 +24,9 @@ See following example:
 
 ```php
 <?php
-require_once 'PHPGangsta/GoogleAuthenticator.php';
+require_once 'powerbyme/GoogleAuthenticator.php';
 
-$ga = new PHPGangsta_GoogleAuthenticator();
+$ga = new powerbyme_GoogleAuthenticator();
 $secret = $ga->createSecret();
 echo "Secret is: ".$secret."\n\n";
 
@@ -47,7 +47,7 @@ Running the script provides the following output:
 ```
 Secret is: OQB6ZZGYHCPSX4AK
 
-Google Charts URL for the QR-Code: https://www.google.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/infoATphpgangsta.de%3Fsecret%3DOQB6ZZGYHCPSX4AK
+Google Charts URL for the QR-Code: https://www.google.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/infoATpowerbyme.de%3Fsecret%3DOQB6ZZGYHCPSX4AK
 
 Checking Code '848634' and Secret 'OQB6ZZGYHCPSX4AK':
 OK
