@@ -1,6 +1,6 @@
 {
     "name": "powerbyme/googleauthenticator",
-    "description": "Google Authenticator 2-factor authentication",
+    "description": "PHP class to generate and verify Google Authenticator 2-factor authentication(用于生成和验证Google Authenticator动态认证身份验证的PHP类)",
     "version": "1.0.0",
     "type": "library",
     "keywords": ["GoogleAuthenticator", "TOTP", "rfc6238"],
